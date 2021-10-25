@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="Maika Davidsen">
+  <meta name="Spatial Design Assessment October 2021">
+<title>IntroPage</title>
+<style>
+
+/*TITLE FADEIN*/
+#heading {
+  text-align: center;
+  color: rgb (43, 43, 43);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*BODY FADEIN*/
+body {
+  background-color: rgb(242, 242, 242);
+  text-align: center;
+  color: rgb (43, 43, 43);
+  font-family: Arial, Helvetica, sans-serif;
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.buttonL {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  position:relative; right:80px;
+}
+
+.buttonR {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  position: relative; 
+  left: 20px;
+}
+
+.button1 {
+  background-color: black; 
+  color: white; 
+  border: 2px solid rgb(43, 43, 43);
+}
+
+.button1:hover {
+  background-color: #FF0000;
+  color: white;
+  border: 2px solid black;
+}
+
+.button2 {
+  background-color: black; 
+  color: white; 
+  border: 2px solid rgb(43,43,43);
+}
+
+.button2:hover {
+  background-color: #FF0000;
+  color: white;
+  border: 2px solid black;
+}
+
+</style>
+</head>
+<body>
+
+	<div id="heading">
+		<h1 style=font-size:60px;>Spatial Design Assessment</h1>
+	</div>
+
+	<p style="font-size: 25px">Maika Davidsen</p>
+
+	<p style="margin: 40px">This website contains a range of spatial design information regarding <br>the Bridge of Remembrance and Victoria Square. This involves a range of <br> researched information as well as photos of each site. Each button will <br>take you to the corresponding page of each site, and has a navigation bar <br>to take you to subcategories of each said page. </p>
+	
+	<button class="buttonL button1">
+		<a style="text-decoration:none; color: white" href="BoRTimeline.html">Bridge of Remembrance</a>
+	</button>
+	<button class="buttonR button2">
+		<a style="text-decoration:none; color: white" href="VSTimeline.html">Victoria Square</a>
+	</button>
+
+	<div id="heading">
+		<p>
+			<h2>Conclusion</h2>
+			<br>
+			Both The Bridge of Remembrance and Victoria Square have significant cultural <br>value to not only Christchurch but the very land that they stand on. Both <br>sites also have designs that reflect this cultural significance of both <br> pakeha and Māori history, bringing these 2 cultures together in the same way <br>these places bring people together. They also have significance to the city <br>of Christchurch, both sites are located in the CBD and seemingly have the <br>entire city built around them. These sites marking the centre of such a <br>bustling city shows that we build our civilisation and society around how <br>we are able to bring our cultures together in such a way as we do with <br>Victoria Square and the Bridge of Remembrance. 
+		</p>
+	</div>
+</body>
+</html>
